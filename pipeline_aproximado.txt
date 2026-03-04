@@ -1,0 +1,6 @@
+1. EDA (Data analysis)
+2. Preprocesado de los datos
+3. Entrenamiento
+4. Evaluación
+5. Volvemos al inicio (iteraciones)
+6. Modelo final
