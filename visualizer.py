@@ -3,7 +3,7 @@ import streamlit as st
 
 import pickle as pkl
 
-file = "./dataset/bank_10.pkl"
+file = "dataset/bank_10.pkl"
 
 with open(file, 'rb') as fd:
     df = pkl.load(fd)
@@ -13,5 +13,5 @@ with open(file, 'rb') as fd:
 df_shape = df.shape
 
 # Create a chart
-st.write("Número de instancias y variables")
+st.subheader("Número de instancias y variables")
 st.table(df_shape, columns=["Instancias", "Variables"])
