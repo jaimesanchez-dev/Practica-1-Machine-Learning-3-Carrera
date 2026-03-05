@@ -3,7 +3,7 @@ import streamlit as st
 
 import pickle as pkl
 
-file = "dataset/bank_10.pkl"
+file = "./dataset/bank_10.pkl"
 
 with open(file, 'rb') as fd:
     df = pkl.load(fd)
