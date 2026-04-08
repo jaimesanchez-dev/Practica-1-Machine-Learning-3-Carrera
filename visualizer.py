@@ -14,4 +14,4 @@ df_shape = df.shape
 
 # Create a chart
 st.subheader("Número de instancias y variables")
-st.table(df_shape)
+st.table(df_shape, columns=["Instancias", "Variables"])
