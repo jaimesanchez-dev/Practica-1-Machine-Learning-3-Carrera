@@ -4,6 +4,8 @@ Aplicación web desarrollada en **Python** utilizando **Streamlit** que permite 
 
 ---
 
+![Captura de IA](Imagen_ML.png)
+
 ## 🚀 Características
 
 * **Formulario Interactivo:** Entrada intuitiva de variables del cliente (edad, tipo de trabajo, balance anual, estado civil, canales de contacto, etc.)[cite: 3].
